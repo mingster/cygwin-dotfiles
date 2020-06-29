@@ -2,8 +2,9 @@
 test -f ~/.bashrc && source ~/.bashrc
 
 # Load the shell dotfiles, and then some:
-# * ~/.path can be used to extend `$PATH`.
-# * ~/.extra can be used for other settings you don’t want to commit.
+# ~/.path can be used to extend `$PATH`.
+# ~/.extra can be used for other settings you don’t want to commit.
+
 for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
@@ -48,7 +49,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 #To get the same syntax highlight as in bash shall, add this to ~/.profile
 export CLICOLOR=cons25
 
-# Git branch in prompt.
+#Git branch in prompt.
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }

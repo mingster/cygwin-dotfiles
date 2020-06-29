@@ -39,3 +39,6 @@ scratch/
 /.atom/storage/
 /.atom/.node-gyp/
 /.atom/.npm/
+.ssh/
+
+.bash_history
