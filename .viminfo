@@ -9,10 +9,12 @@
 
 
 # hlsearch on (H) or off (h):
-~H
+~h
 # Command Line History (newest to oldest):
+:q!
+|2,0,1593428808,,"q!"
 :q
-|2,0,1593427873,,"q"
+|2,0,1593428796,,"q"
 
 # Search String History (newest to oldest):
 
@@ -31,6 +33,18 @@
 # Jumplist (newest first):
 -'  6  0  ~/.aliases
 |4,39,6,0,1593427873,"~/.aliases"
+-'  6  0  ~/.aliases
+|4,39,6,0,1593427873,"~/.aliases"
+-'  6  0  ~/.aliases
+|4,39,6,0,1593427873,"~/.aliases"
+-'  6  0  ~/.aliases
+|4,39,6,0,1593427873,"~/.aliases"
+-'  1  0  ~/.aliases
+|4,39,1,0,1593427862,"~/.aliases"
+-'  1  0  ~/.aliases
+|4,39,1,0,1593427862,"~/.aliases"
+-'  1  0  ~/.aliases
+|4,39,1,0,1593427862,"~/.aliases"
 -'  1  0  ~/.aliases
 |4,39,1,0,1593427862,"~/.aliases"
 
