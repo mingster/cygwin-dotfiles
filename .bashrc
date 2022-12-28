@@ -1,5 +1,13 @@
 [ -n "$PS1" ]
 
+# If not running interactively, don't do anything
+[[ "$-" != *i* ]] && return
+
+# include .aliases
+if [ -f ~/.aliases ]; then
+    . ~/.aliases
+fi
+
 #Node.js
 export NVM_DIR="$HOME/.nvm"
 
